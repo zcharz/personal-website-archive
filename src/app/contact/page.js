@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className='flex'>
       <Head>
-        <title>Music - Charlie</title>
+        <title>Contact - Charlie</title>
       </Head>
 
       <Navbar/>

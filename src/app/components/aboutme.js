@@ -4,8 +4,6 @@ function Socials() {
     <div>
 
 
-
-
     </div>
   )
 }
