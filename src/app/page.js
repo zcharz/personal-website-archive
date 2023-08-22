@@ -1,9 +1,7 @@
 import Navbar from '@/app/components/navbar'
-import AboutMe from '@/app/components/aboutme'
 import Introduction from '@/app/components/introduction'
-import Footer from '@/app/components/socials'
-
-import Head from 'next/head'
+import Transition from '@/app/components/transition'
+import AboutMe from '@/app/components/aboutme'
 
 export const metadata = {
   title: 'Hey there! - Charlie',
@@ -15,9 +13,9 @@ export default function Home() {
       <Navbar/>
 
       <Introduction/>
-      <AboutMe/>    
+      <Transition/>
 
-      <Footer/>
+      <AboutMe/>
     </div>
   )
 }
