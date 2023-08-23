@@ -6,7 +6,7 @@ import {useState} from 'react'
 
 function NavButton( {label, destination} ) {
 	return (
-		<div className='text-gray-800 hover:text-cyan-600 duration-300'>
+		<div className='text-gray-800 hover:text-teal-500 duration-300'>
 			<Link href={destination}>
 				<button>{label}</button>
 			</Link>

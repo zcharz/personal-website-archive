@@ -19,7 +19,7 @@ export default function SocialLinks() {
           <RiLinkedinLine size={25} />
       </a>
 
-      <a href='https://www.youtube.com/@czm.3354/featured' target="_blank"
+      <a href='https://www.youtube.com/@czmusic_' target="_blank"
       className='mr-3 p-3 bg-teal-300 rounded-3xl cursor-pointer 
       hover:bg-pink-200 hover:rounded-xl duration-300'>
           <BiMusic size={25}/>
