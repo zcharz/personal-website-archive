@@ -1,3 +1,5 @@
+import Navbar from '@/app/components/navbar'
+
 export const metadata = {
   title: 'Music - Charlie',
 }
@@ -5,6 +7,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
+      <Navbar/>
     </div>
   )
 }

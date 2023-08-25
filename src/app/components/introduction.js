@@ -15,9 +15,13 @@ function TextIntro() {
         I&apos;m <span className='text-rose-400'>Charlie</span>
       </h1>
 
-      <h2 className='text-lg pt-4 lg:text-2xl'>
+      <h2 className='text-lg pt-3 lg:pt-5 lg:text-2xl'>
         Software Engineer • Student • Musician
       </h2>
+
+      <div className='hidden lg:block pt-5'>
+        <SocialLinks/>
+      </div>
     </div>
   )
 }
@@ -29,7 +33,10 @@ function PortraitIcons() {
       <Image alt='portrait' src={portrait} 
       className='self-center rounded-full border-2 border-rose-400
       w-80 md:w-96'/>
-      <SocialLinks/>
+
+      <div className='self-center lg:hidden'>
+        <SocialLinks/>
+      </div>
     </div>
   )
 }
@@ -37,13 +44,12 @@ function PortraitIcons() {
 
 export default function Introduction() {
   return (
-    <div className='flex flex-col pt-36 pb-10 bg-teal-100'>
+    <div className='flex flex-col pt-36 2xl:pt-56 bg-teal-100'>
       <div className='flex self-center 
-      flex-col lg:flex-row lg:space-x-10
+      flex-col lg:flex-row lg:space-x-20
       lg:space-y-0 space-y-4'>
         <PortraitIcons/>
         <TextIntro/>
-        
       </div>
     </div>
   )

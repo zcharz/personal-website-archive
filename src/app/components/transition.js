@@ -15,3 +15,7 @@ export default function Transition() {
   )
 }
 
+// bg start - teal-100
+// wave start - cyan-300
+// bg end-sky-950
+
