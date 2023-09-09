@@ -1,4 +1,4 @@
-fonts for navbar, intro, about
+fonts  (inter) for navbar, intro, about
 typing animation for greeting
 resume link for socialicons
 start music -> embed yt
