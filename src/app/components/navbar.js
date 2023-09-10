@@ -17,6 +17,7 @@ function NavButton( {label, destination} ) {
 
 export default function Navbar() {
 	let Links = [
+		{label: 'About', destination:'/projects/'},
 		{label: 'Projects', destination:'/projects/'},
 		{label: 'Music', destination:'/music/'},
 		{label: 'Contact', destination:'/contact/'}
@@ -34,13 +35,13 @@ export default function Navbar() {
 
 				{/* menu button */}
 				<div onClick={()=>setOpen(!open)}
-				className='absolute right-14 top-8 cursor-pointer md:hidden
+				className='absolute right-14 top-8 cursor-pointer lg:hidden
 				hover:text-cyan-600 duration-300'>
 					<CgFormatJustify name={open ? 'close':'menu'} size='30'/>
 				</div>
 
 				{/* right navbuttons */}
-				<ul className='hidden md:flex md:items-center '>
+				<ul className='hidden lg:flex md:items-center '>
 					{ Links.map( ({label, destination}) => (
 						<li key={label} className='text-xl ml-8 pl-16'>
 							<NavButton label={label} destination={destination} /> 

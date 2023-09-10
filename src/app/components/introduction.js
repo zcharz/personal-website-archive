@@ -2,6 +2,9 @@ import portrait from '@/assets/portrait.jpg'
 import Image from 'next/image'
 import SocialLinks from './socials'
 
+import Typewriter from './typrewriter'
+import caret from './caret_animation.css'
+
 
 function TextIntro() {
   return (
@@ -15,7 +18,7 @@ function TextIntro() {
         I&apos;m <span className='text-rose-400'>Charlie</span>
       </h1>
 
-      <h2 className='text-lg pt-3 lg:pt-5 lg:text-2xl'>
+      <h2 className='text-xl pt-3 lg:pt-5 lg:text-2xl'>
         Software Engineer • Student • Musician
       </h2>
 
@@ -31,8 +34,7 @@ function PortraitIcons() {
   return (
     <div className='flex self-center flex-col space-y-6'>
       <Image alt='portrait' src={portrait} 
-      className='self-center rounded-full border-2 border-rose-400
-      w-80 md:w-96'/>
+      className='self-center rounded-full border-2 border-rose-400 w-96'/>
 
       <div className='self-center lg:hidden'>
         <SocialLinks/>
@@ -44,7 +46,7 @@ function PortraitIcons() {
 
 export default function Introduction() {
   return (
-    <div className='flex flex-col pt-36 2xl:pt-56 bg-teal-100'>
+    <div className='flex flex-col pt-56 bg-teal-100'>
       <div className='flex self-center 
       flex-col lg:flex-row lg:space-x-20
       lg:space-y-0 space-y-4'>

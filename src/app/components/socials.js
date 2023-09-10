@@ -1,7 +1,7 @@
 import { RiLinkedinLine } from 'react-icons/ri'
 import { LuGithub } from 'react-icons/lu'
 import { BiMusic } from 'react-icons/bi'
-import {HiOutlineDocumentText} from 'react-icons/hi'
+import { HiOutlineDocumentText } from 'react-icons/hi'
 
 import Link from 'next/link'
 
