@@ -2,9 +2,6 @@ import portrait from '@/assets/portrait.jpg'
 import Image from 'next/image'
 import SocialLinks from './socials'
 
-import Typewriter from './typrewriter'
-import caret from './caret_animation.css'
-
 
 function TextIntro() {
   return (

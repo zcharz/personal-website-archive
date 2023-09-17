@@ -1,7 +1,7 @@
 'use client'
-import {CgFormatJustify} from 'react-icons/cg'
+import { CgFormatJustify } from 'react-icons/cg'
 import Link from 'next/link'
-import {useState} from 'react'
+import { useState } from 'react'
  
 
 function NavButton( {label, destination} ) {
@@ -17,10 +17,10 @@ function NavButton( {label, destination} ) {
 
 export default function Navbar() {
 	let Links = [
-		{label: 'About', destination:'/projects/'},
-		{label: 'Projects', destination:'/projects/'},
-		{label: 'Music', destination:'/music/'},
-		{label: 'Contact', destination:'/contact/'}
+		// {label: 'About', destination:'/#about'},
+		// {label: 'Projects', destination:'/#projects'},
+		// {label: 'Music', destination:'/#music'},
+		// {label: 'Contact', destination:'/#contact'}
 	]
 	
 	let [open, setOpen] = useState(false)
