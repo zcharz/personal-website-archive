@@ -11,25 +11,25 @@ export default function SocialLinks() {
     <div className='flex self-center'>
       <Link href='https://github.com/zcharz' target="_blank" 
       className='mr-3 p-3 bg-teal-300 rounded-3xl cursor-pointer 
-      hover:bg-pink-200 hover:rounded-xl duration-300'>
+      hover:bg-rose-200 hover:rounded-xl duration-300'>
           <LuGithub size={25}/>
       </Link>
 
       <Link href='https://www.linkedin.com/in/zhao-charlie/' target="_blank"
       className='mr-3 p-3 bg-teal-300 rounded-3xl cursor-pointer 
-      hover:bg-pink-200 hover:rounded-xl duration-300'>
+      hover:bg-rose-200 hover:rounded-xl duration-300'>
           <RiLinkedinLine size={25} />
       </Link>
 
       <Link href='https://www.youtube.com/@czmusic_' target="_blank"
       className='mr-3 p-3 bg-teal-300 rounded-3xl cursor-pointer 
-      hover:bg-pink-200 hover:rounded-xl duration-300'>
+      hover:bg-rose-200 hover:rounded-xl duration-300'>
           <BiMusic size={25}/>
       </Link>
 
       <Link href='/Charlie_Zhao_Resume.pdf' target="_blank"
       className='mr-3 p-3 bg-teal-300 rounded-3xl cursor-pointer 
-      hover:bg-pink-200 hover:rounded-xl duration-300'>
+      hover:bg-rose-200 hover:rounded-xl duration-300'>
           <HiOutlineDocumentText size={25}/>
       </Link>
     </div>

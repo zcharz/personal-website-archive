@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import layered_waves from '@/assets/layered-waves-haikei.svg'
-import layered_waves_small from '@/assets/layered-waves-haikei-small.svg'
+import layered_waves from '@/assets/layered.svg'
+import layered_waves_small from '@/assets/layered-small.svg'
 
 export default function LayeredWaves() {
   return (

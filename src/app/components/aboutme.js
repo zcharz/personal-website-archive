@@ -1,7 +1,7 @@
 function TextAbout() {
   return (
     <div className='xl:text-2xl lg:text-xl text-lg text-cyan-100 space-y-4'>
-      <h1 className='xl:text-4xl lg:text-3xl text-2xl text-rose-100'>
+      <h1 className='xl:text-4xl lg:text-3xl text-2xl text-rose-100 font-bold'>
         About Me
       </h1>
 
@@ -23,7 +23,7 @@ function TextAbout() {
       </p>
 
       <p>
-        You can find more about my programming projects and music below. 
+        You can find more about my programming projects and music below!
       </p>
     </div>
   )
@@ -33,7 +33,7 @@ function TextAbout() {
 export default function AboutMe() {
   return (
     <div className='flex flex-col items-center 
-    pt-10 pb-32 bg-sky-950 space-y-16'>
+    pt-10 pb-5 bg-sky-950'>
       <div className='flex px-28 lg:px-0 lg:w-8/12 2xl:w-7/12 text-center lg:text-left'>
         <TextAbout/>
       </div>
