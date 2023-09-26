@@ -1,8 +1,6 @@
-space for proj, music, contact segments
-svg graphics for each section
-
-content for each section
+content for project
 scrollintoview navbar buttons
+proper portrait icon
 
-typing animation for greeting
+typing animation for introduction
 resume link for socialicons

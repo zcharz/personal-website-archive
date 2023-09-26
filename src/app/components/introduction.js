@@ -31,7 +31,7 @@ function PortraitIcons() {
   return (
     <div className='flex self-center flex-col space-y-6'>
       <Image alt='portrait' src={portrait} 
-      className='self-center rounded-full border-2 border-rose-400 w-96'/>
+      className='self-center rounded-full border-2 border-rose-400 w-96 pointer-events-none'/>
 
       <div className='self-center lg:hidden'>
         <SocialLinks/>

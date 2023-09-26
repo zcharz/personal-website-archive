@@ -18,7 +18,7 @@ function TextAbout() {
 
       <p>
         Outside of programming, I enjoy playing the saxophone 
-        and producing electronic music under the alias 
+        and producing music under the alias 
         <span className='font-bold'>&nbsp;czm.&nbsp;</span>
       </p>
 

@@ -13,10 +13,10 @@ export function SWave1() {
     <div>
       <Image alt='transition' src={wave1}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      hidden lg:block'/>
+      hidden lg:block pointer-events-none'/>
       <Image alt='transition_small' src={wave1_small}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      lg:hidden'/>
+      lg:hidden pointer-events-none'/>
     </div>
   )
 }
@@ -27,10 +27,10 @@ export function SWave2() {
     <div>
       <Image alt='transition' src={wave2}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      hidden lg:block'/>
+      hidden lg:block pointer-events-none'/>
       <Image alt='transition_small' src={wave2_small}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      lg:hidden'/>
+      lg:hidden pointer-events-none'/>
     </div>
   )
 }
@@ -41,10 +41,10 @@ export function SWave3() {
     <div>
       <Image alt='transition' src={wave3}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      hidden lg:block'/>
+      hidden lg:block pointer-events-none'/>
       <Image alt='transition_small' src={wave3_small}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      lg:hidden'/>
+      lg:hidden pointer-events-none'/>
     </div>
   )
 }

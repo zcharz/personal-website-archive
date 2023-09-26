@@ -1,20 +1,40 @@
 import MusicEmbed from "./music/musicembed"
+import Link from 'next/link'
 
 
 function TextMusic() {
   return (
-    <div className='xl:text-2xl lg:text-xl text-lg text-cyan-100 space-y-4'>
+    <div className='xl:text-2xl lg:text-xl text-lg text-white space-y-4'>
       <h1 className=' xl:text-4xl lg:text-3xl text-2xl text-rose-100 font-bold'>
         Music
       </h1>
 
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Whether I&apos;m feeling down or inspired, 
+        music always provides a safe haven for me to express myself. 
+        No matter what, I can always count on picking up the saxophone and jamming 
+        to make my day better. 
+        I especially enjoy playing saxophone solos in electronic music, 
+        since I also produce electronic music. 
+      </p>
+
+      <p>
+        As I mentioned previously, I produce music under the alias 
+        <span className='font-bold'>&nbsp;czm.&nbsp;</span>
+        I like to experiment with a wide range of genres, including future bass, lofi, melodic dubstep, and many more. 
+      </p>
+
+      <p>
+        Be sure to follow me on YouTube&nbsp;
+        <Link href='https://www.youtube.com/@czmusic_' target="_blank" 
+        className='underline text-rose-200 hover:text-cyan-300 duration-200'>here</Link> 
+        &nbsp;to catch my latest songs and check out my lofi song named 
+        <span className='font-bold'> snooze </span>
+        below!
       </p>
     </div>
   )
 }
-
 
 export default function Music() {
   return (

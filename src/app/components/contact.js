@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 function TextContact() {
   return (
     <div className='xl:text-2xl lg:text-xl text-lg text-cyan-600 space-y-4'>
@@ -6,15 +9,19 @@ function TextContact() {
       </h1>
 
       <p>
-        Feel free to reach out to me through email or Linkedin, or check out my projects on Github and music on YouTube!
+        Feel free to reach out to me through email or Linkedin and check out my projects on Github and music on YouTube!
       </p>
 
       <p>
-      hellozhaocharlie@gmail.com | linkedin.com/in/zhao-charlie
+        <Link href='' className='hover:text-rose-600 duration-200'>hellozhaocharlie@gmail.com</Link>
+        &nbsp;|&nbsp;
+        <Link href='' className='hover:text-rose-600 duration-200'>linkedin.com/in/zhao-charlie</Link>
       </p>
 
       <p>
-      github.com/zcharz | youtube.com/@czmusic_
+        <Link href='' className='hover:text-rose-600 duration-200'>github.com/zcharz</Link>
+        &nbsp;|&nbsp;
+        <Link href='' className='hover:text-rose-600 duration-200'>youtube.com/@czmusic_</Link>
       </p>
     </div>
   )

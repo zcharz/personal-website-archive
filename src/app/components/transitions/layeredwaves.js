@@ -7,10 +7,10 @@ export default function LayeredWaves() {
     <div>
       <Image alt='transition' src={layered_waves}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      hidden lg:block'/>
+      hidden lg:block pointer-events-none'/>
       <Image alt='transition_small' src={layered_waves_small}
       className='w-full aspect-auto bg-no-repeat bg-center bg-cover
-      lg:hidden'/>
+      lg:hidden pointer-events-none'/>
     </div>
   )
 }
