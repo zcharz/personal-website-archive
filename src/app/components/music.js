@@ -1,11 +1,10 @@
 import MusicEmbed from "./music/musicembed"
 import Link from 'next/link'
 
-
 function TextMusic() {
   return (
     <div className='xl:text-2xl lg:text-xl text-lg text-white space-y-4'>
-      <h1 className=' xl:text-4xl lg:text-3xl text-2xl text-rose-100 font-bold'>
+      <h1 className='xl:text-4xl lg:text-3xl text-2xl text-rose-100 font-bold'>
         Music
       </h1>
 

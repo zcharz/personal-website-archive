@@ -35,7 +35,7 @@ export default function Navbar() {
 
 				{/* menu button */}
 				<div onClick={()=>setOpen(!open)}
-				className='absolute right-14 top-8 cursor-pointer lg:hidden
+				className='absolute right-14 top-7 cursor-pointer lg:hidden
 				hover:text-cyan-600 duration-300'>
 					<CgFormatJustify name={open ? 'close':'menu'} size='30'/>
 				</div>
